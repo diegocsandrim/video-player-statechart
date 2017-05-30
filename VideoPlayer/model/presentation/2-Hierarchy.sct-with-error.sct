@@ -6,21 +6,21 @@
       </vertices>
       <vertices incomingTransitions="_d5J2gTtxEee2dJCkaKsgEw" name="StateA" xmi:id="_d5E-BDtxEee2dJCkaKsgEw" xsi:type="sgraph:State">
         <outgoingTransitions specification="ToComposite" target="_hd_PMDtxEee2dJCkaKsgEw" xmi:id="_k8CDYDtxEee2dJCkaKsgEw"/>
-      <outgoingTransitions specification="FromComposite" target="41702267" xmi:id="980498552"/><outgoingTransitions specification="InnerState1To2" target="41702267" xmi:id="980728426"/></vertices>
+      <outgoingTransitions specification="FromComposite" target="530420010" xmi:id="263332383"/><outgoingTransitions specification="InnerState1To2" target="530420010" xmi:id="221046896"/></vertices>
       <vertices incomingTransitions="_k8CDYDtxEee2dJCkaKsgEw" name="CompositeA" xmi:id="_hd_PMDtxEee2dJCkaKsgEw" xsi:type="sgraph:State">
         <outgoingTransitions specification="FromComposite" target="_fx9VwDtyEee2dJCkaKsgEw" xmi:id="_iTHD4DtyEee2dJCkaKsgEw"/>
         <regions name="CompositeRegion" xmi:id="_heEuwDtxEee2dJCkaKsgEw">
           <vertices xmi:id="_03tc8DtxEee2dJCkaKsgEw" xsi:type="sgraph:Entry">
             <outgoingTransitions specification="" target="_g0JBAD0eEeezT6DJfC1Xng" xmi:id="_hoAG4D0eEeezT6DJfC1Xng"/>
           </vertices>
-          <vertices incomingTransitions="_bIV4rD0aEeezT6DJfC1Xng" name="InnerState2" xmi:id="_SuCzgDtyEee2dJCkaKsgEw" xsi:type="sgraph:State"><outgoingTransitions specification="ToComposite" target="41702267" xmi:id="898759064"/><outgoingTransitions specification="InnerState1To2" target="41702267" xmi:id="964935500"/></vertices>
+          <vertices incomingTransitions="_bIV4rD0aEeezT6DJfC1Xng" name="InnerState2" xmi:id="_SuCzgDtyEee2dJCkaKsgEw" xsi:type="sgraph:State"><outgoingTransitions specification="ToComposite" target="530420010" xmi:id="971020503"/><outgoingTransitions specification="InnerState1To2" target="530420010" xmi:id="445333435"/></vertices>
           <vertices incomingTransitions="_hoAG4D0eEeezT6DJfC1Xng" name="InnerState1" xmi:id="_g0JBAD0eEeezT6DJfC1Xng" xsi:type="sgraph:State">
             <outgoingTransitions specification="InnerState1To2" target="_SuCzgDtyEee2dJCkaKsgEw" xmi:id="_bIV4rD0aEeezT6DJfC1Xng"/>
-          <outgoingTransitions specification="ToComposite" target="41702267" xmi:id="347883032"/></vertices>
+          <outgoingTransitions specification="ToComposite" target="530420010" xmi:id="623695416"/></vertices>
         </regions>
       </vertices>
-      <vertices incomingTransitions="_iTHD4DtyEee2dJCkaKsgEw" name="StateB" xmi:id="_fx9VwDtyEee2dJCkaKsgEw" xsi:type="sgraph:State"><outgoingTransitions specification="ToComposite" target="41702267" xmi:id="509854694"/><outgoingTransitions specification="FromComposite" target="41702267" xmi:id="567892378"/><outgoingTransitions specification="InnerState1To2" target="41702267" xmi:id="311865294"/></vertices>
-    <vertices incomingTransitions="980498552 980728426 898759064 964935500 347883032 509854694 567892378 311865294" name="ErrorState" xmi:id="41702267" xsi:type="sgraph:State"/></regions>
+      <vertices incomingTransitions="_iTHD4DtyEee2dJCkaKsgEw" name="StateB" xmi:id="_fx9VwDtyEee2dJCkaKsgEw" xsi:type="sgraph:State"><outgoingTransitions specification="ToComposite" target="530420010" xmi:id="621928680"/><outgoingTransitions specification="FromComposite" target="530420010" xmi:id="67508765"/><outgoingTransitions specification="InnerState1To2" target="530420010" xmi:id="780110742"/></vertices>
+    <vertices incomingTransitions="263332383 221046896 971020503 445333435 623695416 621928680 67508765 780110742" name="ErrorState" xmi:id="530420010" xsi:type="sgraph:State"/></regions>
   </sgraph:Statechart>
   <notation:Diagram element="_d4wN4DtxEee2dJCkaKsgEw" measurementUnit="Pixel" type="org.yakindu.sct.ui.editor.editor.StatechartDiagramEditor" xmi:id="_d40fUDtxEee2dJCkaKsgEw">
     <children element="_d41GYDtxEee2dJCkaKsgEw" type="Region" xmi:id="_d46l8DtxEee2dJCkaKsgEw">
